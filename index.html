@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EstherDev</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!-- Cabeçalho com navegação -->
+    <nav>
+        <ul class="menu">
+            <li><a href="#sobremim">Sobre mim</a></li>
+            <li><a href="#formacao">Formação</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!-- Seções principais -->
+        <section id="sobremim" class="sobremim">
+            <!-- ... Conteúdo da seção "Sobre mim" ... -->
+            <div class="minha-imagem">
+                <div><img src="image/minhaFoto.PNG" alt="fotoEsther"></div>
+            </div>
+            <div class="textosobremim">
+                <div>
+                    <h1><em><b>SOU ESTHER</b></em></h1>
+                </div>
+                <div>
+                    <p>Me considero uma pessoa motivada e comprometida com desejo forte de aprender e otimizar minhas
+                        habilidades.</br>Desenvolvedora Web em C# ASP .Net Web Forms, JS, HTML, CSS.</br> Aprendiz de
+                        Linguagem
+                        SQL.</p>
+                </div>
+                <div class="linkcurriculo">
+                    <p><b><a href="http://lattes.cnpq.br/5187171558788054">Currílo Lattes</a></b></p>
+                </div>
+        </section>
+        <section id="formacao" class="formacao">
+            <!-- ... Conteúdo da seção "Formação" ... -->
+            <div>
+                <div class="imagem-dev">
+                    <div><img src="image/imagemDev.PNG" alt="imagemDev"></div>
+                    <div>
+                        <h2><em>Formação</em></h2>
+                    </div>
+
+                    <div>
+                        <p><b>2023
+                                Graduação em andamento em Análise e Desenvolvimento de Sistemas.
+                                Centro Universitário Internacional, UNINTER, Brasil.
+                            </b>
+                            </br>
+                            2023 interrompida
+                            Graduação interrompida em 2023 em Bacharelado em História.
+                            Centro Universitário Internacional, UNINTER, Brasil.
+                            Ano de interrupção: 2023
+                            </br>
+                            2017 - 2019
+                            Ensino Médio (2º grau).
+                            ENCCEJA, ENCCEJA, Brasil.
+                        </p>
+                    </div>
+        </section>
+        <section id="portfolio" class="portfoliotable-container">
+            <!-- ... Conteúdo da seção "Portfólio" ... -->
+            <div>
+                <h2><em>Portfólio</em></h2>
+            </div>
+            <table>
+                <tr>
+                    <td>
+                        <div class="github" style="width: 100%">
+                            <!-- Conteúdo da div "github" ... -->
+                            <div class="box">
+                                <div><img src="image/ProjetoDoceria.png" alt="gerenciamentoDoceria"></div>
+                                <p><a href="https://github.com/esthermara/gerenciamentoDoceria">GITHUB-Projeto
+                                        Geren.Doceria</a></p>
+                            </div>
+                            <div class="box">
+                                <div><img src="image/caixaLanchonete.png" alt="imagemDev"></div>
+                                <p><a href="https://github.com/esthermara/desafio-esther-mara-balduino-de-paulo">GITHUB-Projeto Caixa de Lanchonete</a></p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <footer id="contato">
+            <!-- ... Conteúdo do rodapé "Contato" ... -->
+            <table style="width:100%; border-collapse: collapse;">
+                <tr>
+                    <td style="width:50%; padding: 20px;">
+                        <div class="newsletter">
+                            <h2>Envie-me uma Mensagem</h2>
+                            <form onsubmit="return enviarMensagem()">
+                                <input type="text" id="nome" placeholder="Seu nome" required><br>
+                                <input type="email" id="email" placeholder="Seu e-mail" required><br>
+                                <textarea id="mensagem" placeholder="Sua mensagem" required></textarea><br>
+                                <input type="submit" value="Enviar Mensagem">
+                            </form>
+                        </div>
+                    </td>
+                    <td style="width:50%; padding: 20px;">
+                        <div class="redes-sociais">
+                            <h2>Siga-me nas Redes Sociais</h2>
+                            <a href="https://instagram.com/_estherdev?igshid=MzRlODBiNWFlZA==" target="_blank"><img src="image/logoInstagram.PNG" alt="Instagram"></a>
+                            <a href="https://www.linkedin.com/in/esther-mara-34324b246/" target="_blank"><img src="image/logoLinkedin.PNG" alt="Linkedin"></a>
+                        </div>
+                    </td>
+                </tr>
+            </table>    
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

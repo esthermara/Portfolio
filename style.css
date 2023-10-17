@@ -1,0 +1,259 @@
+  /* Estilos CSS para a página */
+  body {
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    width: 100%;
+}
+
+nav {
+    border-radius: 0 0 40px 40px;
+    position: fixed;
+    background-color: #333;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+main {
+    background-color: #262626;
+    max-width: 100%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.menu a {
+    font-size: 18px;
+    background-image: linear-gradient(to right, #85FFC2, #6148AA);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.menu a:hover {
+    font-size: 19px;
+    color: #6148AA;
+    cursor: pointer;
+}
+
+.minha-imagem img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.minha-imagem img:hover {
+    width: 260px;
+    border-radius: 50%;
+}
+
+#sobremim {
+    padding: 50px;
+    height: 550px;
+}
+.sobremim {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.sobremim h1 {
+    background-image: linear-gradient(to bottom right, #85FFC2, rgb(168, 107, 226));
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-left: 20px;
+}
+
+.sobremim p {
+    font-size: 18px;
+    color: white;
+    margin-left: 20px;
+}
+#formacao {
+    height: 400px;
+}
+
+.formacao {
+    display: flex;
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.formacao p {
+    font-size: 18px;
+    color: white;
+}
+
+.formacao h2 {
+    font-size: 28px;
+    color: rgb(221, 200, 240);
+    bottom: 40px;
+}
+
+.imagem-dev img {
+    width: 160px;
+    border-radius: 50%;
+    float: right;
+    margin-right: 40px;
+}
+#portifolio {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.portfoliotable-container {
+    margin-left: 20px;
+}
+
+
+.portfoliotable-container h2 {
+    font-size: 28px;
+    color: rgb(221, 200, 240);
+    margin-left: 50px;
+}
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
+.table-container table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.table-container td {
+    padding: 20px;
+    text-align: center;
+}
+
+.github {
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.box div {
+    margin: 10px;
+}
+
+.box img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.box p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    color: transparent;
+    border: 2px solid #85FFC2;
+    padding: 20px;
+    border-radius: 50px;
+    width: 300px;
+    height: 20px;
+}
+
+.box a {
+    text-decoration: none;
+    color: #6148AA;
+}
+
+.linkcurriculo p {
+    color: transparent;
+    border: 2px solid #85FFC2;
+    padding: 20px;
+    border-radius: 50px;
+    width: 110px;
+    height: 20px;
+}
+
+.linkcurriculo a {
+    font-size: medium;
+    text-decoration: none;
+    color: rgb(221, 200, 240);
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centraliza verticalmente os elementos */
+}
+
+.newsletter,
+.redes-sociais {
+    flex: 1;
+    max-width: 200px;
+    margin: auto;
+}
+.newsletter h2 {
+    font-size: 16px;
+    width: 300px;
+} 
+
+footer {
+    max-width: 100%;
+    background-color: white;
+    border-radius: 40px 40px 0 0;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #6148AA;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #85FFC2;
+}
+
+input[type="submit"]:hover {
+    background-color: #262626;
+    border: 2px solid #85FFC2;
+}
+form {
+    max-width: 300px;
+}
+
+.redes-sociais a {
+    display: inline-block;
+    margin-top: 10px; /* Adicionei margem acima dos ícones */
+}
+
+.redes-sociais img {
+    width: 80px;
+    height: 80px;
+}
+.redes-sociais h2 {
+    font-size: 16px;
+    width: 300px;
+}
