@@ -16,17 +16,3 @@
         });
     });
 });
-
-function enviarMensagem() {
-    var nome = document.getElementById("nome").value;
-    var email = document.getElementById("email").value;
-    var mensagem = document.getElementById("mensagem").value;
-
-    if (nome.trim() !== "" && email.trim() !== "" && mensagem.trim() !== "") {
-        alert("Mensagem enviada!");
-        // Adicione aqui a lógica para enviar a mensagem (por exemplo, usando AJAX ou redirecionando para um script de envio de e-mail)
-    } else {
-        alert("Por favor, preencha todos os campos.");
-    }
-    return false; // Isso previne o envio padrão do formulário
-}
