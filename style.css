@@ -303,12 +303,12 @@ form {
         width: 150px; /* Reduz o tamanho da imagem */
     }
 
-    #sobremim
-    #formacao
-    #portfolio
+    #sobremim,
+    #formacao,
+    #portfolio,
     #contato {
         height: auto; /* Ajusta a altura conforme o conteúdo */
-        width: 100%;
+        width: auto;
     }
 
     .sobremim h1,
