@@ -302,7 +302,6 @@ form {
     #contato {
         height: auto; /* Ajusta a altura conforme o conteúdo */
         width: 100%;
-        padding: 50px; /* Reduz o espaçamento */
     }
 
     .sobremim h1,
