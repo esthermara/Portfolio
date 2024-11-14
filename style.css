@@ -277,7 +277,7 @@ form {
 /* Media queries para telas menores */
 @media screen and (max-width: 480px) {
     body {
-        width: 100%;
+        width: auto;
         justify-content: center;
         align-items: center;
         margin: 0;
@@ -308,7 +308,7 @@ form {
     #portfolio,
     #contato {
         height: auto; /* Ajusta a altura conforme o conteúdo */
-        width: auto;
+        width: 100%;
     }
 
     .sobremim h1,
