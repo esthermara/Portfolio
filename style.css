@@ -275,6 +275,12 @@ form {
 }
 /* Media queries para telas menores */
 @media screen and (max-width: 480px) {
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;  
+    }
     nav ul {
         flex-direction: row; /* Muda a direção para coluna */
         text-align: center;
@@ -322,6 +328,7 @@ form {
     }
     .redes-sociais {
         flex-direction: column;
+        margin-right: 30px;
     }
     .redes-sociais img {
         width: 60px;
