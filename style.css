@@ -278,6 +278,10 @@ form {
 @media screen and (max-width: 480px) {
     body {
         width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
     }
     nav ul {
         flex-direction: row; /* Muda a direção para coluna */
