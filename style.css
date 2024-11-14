@@ -314,15 +314,15 @@ form {
         width: 100%;
     }
 
-    .sobremim h1,
-    .formacao h2,
+    #sobremim h1,
+    #formacao h2,
     .portfoliotable-container h2 {
         font-size: 24px; /* Reduz o tamanho da fonte */
         margin-left: 10px; /* Reduz o espaçamento */
     }
 
-    .sobremim p,
-    .formacao p,
+    #sobremim p,
+    #formacao p,
     .table-container td,
     .box p,
     .linkcurriculo p,
