@@ -279,13 +279,6 @@ form {
 }
 /* Media queries para telas menores */
 @media screen and (max-width: 480px) {
-    body {
-        width: auto;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-        padding: 0;
-    }
     nav ul {
         flex-direction: row; /* Muda a direção para coluna */
         text-align: center;
@@ -304,14 +297,6 @@ form {
     .minha-imagem img,
     .imagem-dev img {
         width: 150px; /* Reduz o tamanho da imagem */
-    }
-
-    #sobremim,
-    #formacao,
-    #portfolio,
-    #contato {
-        height: auto; /* Ajusta a altura conforme o conteúdo */
-        width: 100%;
     }
 
     #sobremim h1,
