@@ -276,6 +276,9 @@ form {
 }
 /* Media queries para telas menores */
 @media screen and (max-width: 480px) {
+    body {
+        width: 100%;
+    }
     nav ul {
         flex-direction: row; /* Muda a direção para coluna */
         text-align: center;
