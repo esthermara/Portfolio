@@ -300,7 +300,7 @@ form {
     #portfolio,
     #contato {
         height: auto; /* Ajusta a altura conforme o conteúdo */
-        width: 100%;
+        width: auto;
         padding: 50px; /* Reduz o espaçamento */
     }
 
