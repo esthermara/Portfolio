@@ -275,12 +275,6 @@ form {
 }
 /* Media queries para telas menores */
 @media screen and (max-width: 480px) {
-    body {
-        margin: 0;
-        padding: 0;
-        width: auto;
-        height: auto;  
-    }
     nav ul {
         flex-direction: row; /* Muda a direção para coluna */
         text-align: center;
